@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body {
+    overflow: y;
+    margin: 0;
+    font-family: lora; /* Download montserrat and roboto later from google apis*/
+    font-size: 16px;
+    font-size: normal;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.headercontainer {
+    flex-basis: 72px;
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    justify-content: left;
+    width: 900px;
+}
+
+.logo {
+    font-weight: 800;
+    margin: 10px;
+    font-family: montserrat;
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 60px;
+    margin-right: auto;
+    font-weight: 700;
+    font-family: montserrat;
+}
+
+.lists {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.hero {
+    display: flex;    
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 600px;
+    gap: 100px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 30px;
+}
+
+.herotitle {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: montserrat;
+    margin-top: 20px;
+}
+
+.herodesc {
+    font-size: 14px;
+}
+
+.signup {
+    font-size: 14px;
+    background-color: purple;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border-color: purple;
+    border-style: solid;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+.deal {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.placeholderdemo {
+    width: 180px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.demo {
+    width: 400;
+    flex-shrink: 1;
+}
+
+.agitate {
+    background: cyan;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.agitatebox {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.painpoints {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.secondhero {
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+}
+
+.smalltitle {
+    font-size: 14px;
+}
+
+.hero2 {
+    width: 800px;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.hero2desc {
+    font-size: 14px;
+}
+
+.explanation {
+    height: 600px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.explanationtitle {
+    text-align: center;
+}
+
+.explanationdesc {
+    text-align: center;
+    width: 200px;
+    font-size: 12px;
+}
+
+.calltoaction {
+    height: 200px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actiontab {
+    background-color: yellow;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+
+
+
+.actionbutton {
+    font-size: 14px;
+    background-color: purple;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border-color: purple;
+    border-style: solid;
+    height: 40px;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+.actiontitle {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: montserrat;
+}
+
+.actiondesc {
+    font-size: 12px;
+}
+
+
+
+.footer {
+    height: 72px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
